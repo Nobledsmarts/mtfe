@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>形状结合</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4396FF" offset="0%"></stop>
+            <stop stop-color="#1977EF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首页新增广告位" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.官网主页_PC1440-02-新增广告" transform="translate(-292.000000, -1544.000000)" fill="url(#linearGradient-1)">
+            <g id="编组-6" transform="translate(0.000000, 986.000000)">
+                <g id="编组-5" transform="translate(230.000000, 254.000000)">
+                    <g id="编组-2">
+                        <path d="M80,340 C70.0588745,340 62,331.941125 62,322 C62,312.058875 70.0588745,304 80,304 C89.9411255,304 98,312.058875 98,322 C98,331.941125 89.9411255,340 80,340 Z M82.3500667,311.226982 L82.3500711,311.226999 C81.5406742,310.759707 80.5057191,311.037008 80.0383927,311.846377 L72.846146,324.304192 L80.1737659,328.534922 L87.3660125,316.077107 C87.8333047,315.26771 87.5560034,314.232755 86.7466343,313.765428 L82.3500667,311.226982 Z M72,325.769686 L73.1253744,332.281629 L79.3276199,330.000416 L72,325.769686 Z" id="形状结合"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="445" height="443" viewBox="0 0 445 443">
+    <defs>
+        <path id="ff352xvska" d="M0 4c0-2.21 1.785-4 4-4h435c2.21 0 4 1.785 4 4v435c0 2.21-1.785 4-4 4H4c-2.21 0-4-1.785-4-4V4z"/>
+        <path id="9aufe97qzb" d="M147 0L297 0 297 443 147 443z"/>
+        <path id="l64yzeku0c" d="M147 0L297 0 297 443 147 443z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-850 -4829) translate(850 4829) translate(1)">
+                    <use fill="#0D1E30" stroke="#283E55" stroke-dasharray="3" xlink:href="#ff352xvska"/>
+                    <use stroke="#283E55" stroke-dasharray="3" xlink:href="#9aufe97qzb"/>
+                    <use stroke="#283E55" stroke-dasharray="3" transform="rotate(90 222 221.5)" xlink:href="#l64yzeku0c"/>
+                </g>
+                <g transform="translate(-850 -4829) translate(850 4829) translate(1 109)">
+                    <path stroke="#FFF" stroke-width="2" d="M0 210L39 170.833 77.889 217.5 116.778 124.167 155.667 194.167 194.556 100.833 233.444 147.5 272.333 54.167 311.222 77.5 350.111 7.5 389 30.833 443 99" transform="matrix(-1 0 0 1 443 0)"/>
+                    <path fill="#4F7295" d="M92 217.5L130.889 124.167 169.778 194.167 208.667 100.833 247.556 147.5 286.444 54.167 325.333 77.5 364.222 7.5 364.222 218z" opacity=".455" transform="matrix(-1 0 0 1 456.222 0)"/>
+                    <circle cx="364" cy="217" r="6" fill="#858585" stroke="#FFF" stroke-width="2"/>
+                    <circle cx="92" cy="7" r="6" fill="#0099E6" stroke="#FFF" stroke-width="2"/>
+                </g>
+                <g fill="#858585">
+                    <path d="M0 0l16 25h116.007c4.414 0 7.993 3.576 7.993 8.006v33.988c0 4.422-3.584 8.006-8.004 8.006H8.004C3.584 75 0 71.42 0 67.01V0z" transform="translate(-850 -4829) translate(850 4829) translate(223 338) matrix(-1 0 0 1 140 0)"/>
+                </g>
+                <path fill="#0099E6" d="M98 38.006c0-4.422 3.584-8.006 8.004-8.006h123.992c4.42 0 8.004 3.58 8.004 7.99V105l-19-25H106.01c-4.424 0-8.01-3.576-8.01-8.006V38.006z" transform="translate(-850 -4829) translate(850 4829) matrix(-1 0 0 1 336 0)"/>
+                <text fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" transform="translate(-850 -4829) translate(850 4829)">
+                    <tspan x="113.252" y="305">Profit</tspan>
+                </text>
+                <text fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" transform="translate(-850 -4829) translate(850 4829)">
+                    <tspan x="147.42" y="64">Sell</tspan>
+                </text>
+                <text fill="#FFF" font-family="Montserrat-Bold, Montserrat" font-size="24" font-weight="bold" transform="translate(-850 -4829) translate(850 4829)">
+                    <tspan x="270.032" y="397">Buy</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

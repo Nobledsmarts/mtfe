@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1040px" height="340px" viewBox="0 0 1040 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>小背景</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="9.87829836%" y1="45.1128448%" x2="92.3069817%" y2="55.0196517%" id="linearGradient-1">
+            <stop stop-color="#015AE6" offset="0%"></stop>
+            <stop stop-color="#0234B9" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1040" height="340" rx="20"></rect>
+        <linearGradient x1="5.95469535%" y1="42.5061217%" x2="86.9978987%" y2="43.1776429%" id="linearGradient-4">
+            <stop stop-color="#0054CE" offset="0%"></stop>
+            <stop stop-color="#023DC3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.40542515%" y1="74.708661%" x2="79.9888038%" y2="74.708661%" id="linearGradient-5">
+            <stop stop-color="#043FCA" offset="0%"></stop>
+            <stop stop-color="#0144CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="高杠杆-pc" transform="translate(-200.000000, -1508.000000)">
+            <g id="分组-4" transform="translate(200.000000, 1508.000000)">
+                <g id="矩形-copy-5">
+                    <g id="矩形-copy-3">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                        <rect fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-3)" transform="translate(345.766183, 403.358524) rotate(16.000000) translate(-345.766183, -403.358524) " x="-56.7338169" y="233.358524" width="805" height="340" rx="22"></rect>
+                        <rect id="矩形-copy-4" fill="url(#linearGradient-5)" fill-rule="nonzero" mask="url(#mask-3)" transform="translate(802.759347, 299.998584) rotate(143.000000) translate(-802.759347, -299.998584) " x="400.259347" y="129.998584" width="805" height="340" rx="22"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

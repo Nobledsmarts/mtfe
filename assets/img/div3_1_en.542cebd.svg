@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="445" height="443" viewBox="0 0 445 443">
+    <defs>
+        <path id="vqno0aupsa" d="M0 4c0-2.21 1.785-4 4-4h435c2.21 0 4 1.785 4 4v435c0 2.21-1.785 4-4 4H4c-2.21 0-4-1.785-4-4V4z"/>
+        <path id="ump94wi7vb" d="M147 0L297 0 297 443 147 443z"/>
+        <path id="hmhpwqi5ec" d="M147 0L297 0 297 443 147 443z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-159 -4829) translate(159 4829) translate(1)">
+                        <use fill="#0D1E30" stroke="#283E55" stroke-dasharray="3" xlink:href="#vqno0aupsa"/>
+                        <use stroke="#283E55" stroke-dasharray="3" xlink:href="#ump94wi7vb"/>
+                        <use stroke="#283E55" stroke-dasharray="3" transform="rotate(90 222 221.5)" xlink:href="#hmhpwqi5ec"/>
+                    </g>
+                    <g transform="translate(-159 -4829) translate(159 4829) translate(1 111)">
+                        <path stroke="#FFF" stroke-width="2" d="M0 208L39 168.833 77.889 215.5 116.778 122.167 155.667 192.167 194.556 98.833 233.444 145.5 272.333 52.167 311.222 75.5 350.111 5.5 389 28.833 443 97"/>
+                        <path fill="#4F7295" d="M77 7L77.889 215.5 116.778 122.167 155.667 192.167 194.556 98.833 233.444 145.5 272.333 52.167 311.222 75.5 350.111 5.5 78 7z" opacity=".455"/>
+                        <circle cx="77" cy="215" r="6" fill="#0099E6" stroke="#FFF" stroke-width="2"/>
+                        <circle cx="350" cy="7" r="6" fill="#858585" stroke="#FFF" stroke-width="2"/>
+                    </g>
+                    <g fill="#0099E6">
+                        <path d="M0 0l16 25h116.007c4.414 0 7.993 3.576 7.993 8.006v33.988c0 4.422-3.584 8.006-8.004 8.006H8.004C3.584 75 0 71.42 0 67.01V0z" transform="translate(-159 -4829) translate(159 4829) translate(83 338)"/>
+                    </g>
+                    <path fill="#858585" d="M210 38.006c0-4.422 3.584-8.006 8.004-8.006h123.992c4.42 0 8.004 3.58 8.004 7.99V105l-19-25H218.01c-4.424 0-8.01-3.576-8.01-8.006V38.006z" transform="translate(-159 -4829) translate(159 4829)"/>
+                    <text fill="#FFF" font-family="Montserrat-Bold, Montserrat, 'source-han-sans-simplified-c', sans-serif" font-size="24" font-weight="bold" transform="translate(-159 -4829) translate(159 4829)">
+                        <tspan x="97.252" y="158">Profit</tspan>
+                    </text>
+                    <text fill="#FFF" font-family="Montserrat-Bold, Montserrat, 'source-han-sans-simplified-c', sans-serif" font-size="24" font-weight="bold" transform="translate(-159 -4829) translate(159 4829)">
+                        <tspan x="257.92" y="64">Sell</tspan>
+                    </text>
+                    <text fill="#FFF" font-family="Montserrat-Bold, Montserrat, 'source-han-sans-simplified-c', sans-serif" font-size="24" font-weight="bold" transform="translate(-159 -4829) translate(159 4829)">
+                        <tspan x="130.032" y="397">Buy</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

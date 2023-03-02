@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>椭圆形</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2A73CB" offset="0%"></stop>
+            <stop stop-color="#0D4A95" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首页新增广告位" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.官网主页_PC1440-02-新增广告" transform="translate(-756.000000, -645.000000)">
+            <g id="编组-19" transform="translate(759.000000, 648.000000)">
+                <g id="路径-2">
+                    <circle id="椭圆形" stroke="#FFFFFF" stroke-width="3" fill="url(#linearGradient-1)" cx="30" cy="30" r="31.5"></circle>
+                    <path d="M38.2826004,30 L33.4103088,30 L33.4103088,48 L26.1766141,48 L26.1766141,30 L22.5,30 L22.5,23.8057852 L26.1766141,23.8057852 L26.1766141,20.0033906 C26.1766141,15.0357422 28.2391149,12 34.0081475,12 L38.8804391,12 L38.8804391,18.1942148 L35.9212007,18.1942148 C33.7092453,18.1942148 33.5597873,19.1141484 33.5597873,20.616702 L33.5597873,23.6524758 L39,23.6524758 L38.2826072,30 L38.2826004,30 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
