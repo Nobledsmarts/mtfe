@@ -160,15 +160,17 @@ body, html {
     border-radius: 10px;
 }
 .menu ul li a:hover, .menu ul li a:focus, .menu ul li a:active {
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* color: #fff; */
+    color :#1830a3;
     opacity: 1;
 }
 .menu ul li a.active {
-    background: rgba(255, 255, 255, 0.15);
+    /* background: rgba(255, 255, 255, 0.15); */
+    color :#1830a3
 }
 .menu ul li a.active i {
-    color: #fff;
+   color :#1830a3;
     opacity: 1;
 }
 .menu ul li a i {
