@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    $('#records').DataTable();
+});
+
 window.addEventListener('resize', () => {
     const activeTab = document.querySelector('.tabs-container .tabs.active');
     const activeTabRects = activeTab.getBoundingClientRect();

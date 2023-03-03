@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#3874f6"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="/dashboard/style.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.3/css/jquery.dataTables.min.css">
+    <script defer src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script defer src="https://cdn.datatables.net/1.13.3/js/jquery.dataTables.min.js"></script>
+    <script defer src="https://cdn.datatables.net/1.13.3/js/dataTables.bootstrap5.min.js"></script>
+
+    <script defer src="/dashboard/main.js"></script>
+
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Filled"
+      rel="stylesheet"> -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> -->
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-wrapper" class="show">
+        <div class="header">
+          <div class="container">
+            <div class="row">
+              <div class="col-xxl-12">
+                <div class="header-content justify-content-center d-flex">
+                  <div class="header-lef  w-100 justify-content-between flex-row d-flex">
+                    <div class="brand-logo">
+                      <a href="/dashboard/user" class="">
+                        <i class="material-icons text-white">settings</i>
+                      </a>
+                    </div>
+                    <div class="brand-logo">
+                        <a href="/dashboard/user" class="">
+                          <img style="width:200px; max-height: 30px; max-width:200px" src="../assets/img/logo.f84fa33.png" alt="">
+                        </a>
+                      </div>
+                      <div class="brand-logo">
+                        <a href="/dashboard/user" class="">
+                            <i class="material-icons text-white">support_agent</i>
+                        </a>
+                      </div>
+                   
+                  </div>
+                 
+                 
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+  
+        <div class="sidebar">
+          <div class="brand-logo">
+            <a href="/dashboard/user"><img src="assets/img/logo.f84fa33.png" alt="" class="logo-img logo_white" data-v-36ac65e2=""></a>
+          </div>
+          <div class="menu active">
+            <ul class="show">
+              <li class="active">
+                <a href="/dashboard/trade.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Home" class="active">
+                  
+                    <span class="material-icons">
+                    currency_exchange
+                    </span>
+                   <span class="small">Trade</span>
+                </a>
+              </li>
+              <li>
+                <a href="/dashboard/chart.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Invest">
+                  
+                    <span class="material-icons">
+                    assessment
+                    </span>
+                   <span class="small">Chart</span>
+                </a>
+              </li>
+              <li>
+                <a href="/dashboard/position.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Withdrawal">
+                  
+                    <span class="material-icons">
+                        business_center
+                        </span>
+                   <span class="small">Position</span>
+                </a>
+              </li>
+              <li>
+                <a href="/dashboard/news.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Reinvestment">
+                  
+                    <span class="material-icons">
+                        school
+                        </span>
+                   <span class="small">News</span>
+                </a>
+              </li>
+              <li class="logout">
+                <a href="index.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Signout">
+                  
+                    <span class="material-icons">
+                        more_horiz
+                        </span>
+                   <span class="small">Profile</span>
+                </a>
+              </li>
+            </ul>
+  
+            <!-- <p class="copyright">&#169; <a href="#"></a></p> -->
+          </div>
+        </div>    
+        <div class="content-body py-3">
+            <div class="container px-4">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="card-title py-3">$0.7890987</h5>
+                                    <div>
+                                        <span class="material-icons">
+                                            account_balance
+                                            </span>
+                                    </div>
+                                </div>
+                            
+                              <div class="progress my-3">
+                                <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <p class="card-text">
+                                Deposit Balance
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+               
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="card b-0 flush">
+                            <div class="card-header">
+                                <h6 class="card-title py-3">Make Deposits</h6>
+                            </div>
+                            <div class="card-body" align="center">
+                                <p class="card-text">
+                                Your minimum deposit is $10 with a maximum of $3,000
+                                </p>
+                                <a href="add.html" class="btn d-inline-flex gap-1 btn-primary text-uppercase px-4">
+                                    <span class="material-icons-outlined">
+                                        arrow_circle_right
+                                        </span>
+                                     Proceed to make payment</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                
+               
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="card b-0 flush">
+                            <div class="card-header">
+                                <h6 class="card-title py-3">Recent Deposits</h6>
+                            </div>
+                            <div class="card-body" align="center">
+                                <table id="records" class="display" style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Time</th>
+                                            <th>amount</th>
+                                            <th>status</th>
+                                           
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Edinburgh</td>
+                                            <td>61</td>
+                                            <td>2011-04-25</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>Tokyo</td>
+                                            <td>63</td>
+                                            <td>2011-07-25</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>San Francisco</td>
+                                            <td>66</td>
+                                            <td>2009-01-12</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Edinburgh</td>
+                                            <td>22</td>
+                                            <td>2012-03-29</td>
+                                         
+                                        </tr>
+                                        <tr>
+                                            <td>Tokyo</td>
+                                            <td>33</td>
+                                            <td>2008-11-28</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>New York</td>
+                                            <td>61</td>
+                                            <td>2012-12-02</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>San Francisco</td>
+                                            <td>59</td>
+                                            <td>2012-08-06</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>Tokyo</td>
+                                            <td>55</td>
+                                            <td>2010-10-14</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>San Francisco</td>
+                                            <td>39</td>
+                                            <td>2009-09-15</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>Edinburgh</td>
+                                            <td>23</td>
+                                            <td>2008-12-13</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>London</td>
+                                            <td>30</td>
+                                            <td>2008-12-19</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>Edinburgh</td>
+                                            <td>22</td>
+                                            <td>2013-03-03</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>San Francisco</td>
+                                            <td>36</td>
+                                            <td>2008-10-16</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>London</td>
+                                            <td>43</td>
+                                            <td>2012-12-18</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>London</td>
+                                            <td>19</td>
+                                            <td>2010-03-17</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>London</td>
+                                            <td>66</td>
+                                            <td>2012-11-27</td>
+                                          
+                                        </tr>
+                                        <tr>
+                                            <td>New York</td>
+                                            <td>64</td>
+                                            <td>2010-06-09</td>
+                                         
+                                        </tr>
+                                        <tr>
+                                            <td>New York</td>
+                                            <td>59</td>
+                                            <td>2009-04-10</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>London</td>
+                                            <td>41</td>
+                                            <td>2012-10-13</td>
+                                           
+                                        </tr>
+                                        <tr>
+                                            <td>Edinburgh</td>
+                                            <td>35</td>
+                                            <td>2012-09-26</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>New York</td>
+                                            <td>30</td>
+                                            <td>2011-09-03</td>
+                                          
+                                        </tr>
+                                        <tr>
+                                            <td>New York</td>
+                                            <td>40</td>
+                                            <td>2009-06-25</td>
+                                            
+                                        </tr>
+                                        
+                                    </tbody>
+                                    
+                                </table>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+         
+        </div>
+      </div>
+</body>
+</html>

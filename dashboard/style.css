@@ -3,6 +3,8 @@ html {
     --grey2 : #91a1bb;
     --grey3 : #444a5d;
     --white-bg1 : #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 body, html {
     /* color: #596178; */
@@ -94,7 +96,7 @@ body, html {
     height: calc(100%-20px);
     width: 75px;
     top: 20px;
-    z-index: 3;
+    z-index: 999;
     bottom: 20px;
     border-radius: 15px;
     /* box-shadow: 0px 0px 2px 0px #333436; */
@@ -276,4 +278,36 @@ li {
     width: 40%;
     display: flex;
     margin: auto;
+}
+.dataTables_filter{
+    display: none;
+}
+.dataTables_wrapper.dt-bootstrap5 .col-sm-12.col-md-6, .dataTables_wrapper.dt-bootstrap5 .col-sm-12.col-md-5{
+    display: none;
+}
+.paginate_button.page-item.next a, .paginate_button.page-item.previous a{
+    white-space: nowrap;
+    display: inline-block;
+    font-size: smaller;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    background: transparent !important;
+    border: none !important;
+    padding: none !important;
+}
+.page-link{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+}
+.withdrawal-form{
+    font-weight: 500;
+}
+.withdrawal-form label {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.withdrawal-form input {
+    font-size: 0.8rem;
+    font-weight: 500;
 }
