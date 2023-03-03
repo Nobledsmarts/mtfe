@@ -10,6 +10,7 @@ body, html {
     /* color: #596178; */
     color : var(--grey3);
     background-color: #ffffff;
+    /* background-color: #f4f8fb; */
     font-size: 0.96rem;
 }
 #main-wrapper {
@@ -431,4 +432,7 @@ li {
     padding-bottom: 10px;
     padding-top: 10px;
     /* background: red; */
+}
+.card-header {
+    background: #f4f8ff;
 }
