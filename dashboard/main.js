@@ -2,6 +2,16 @@ $(document).ready(function () {
     $('#records').DataTable();
 });
 
+var triggerTabList = [].slice.call(document.querySelectorAll('#trade-options a'))
+triggerTabList.forEach(function (triggerEl) {
+  var tabTrigger = new bootstrap.Tab(triggerEl)
+
+  triggerEl.addEventListener('click', function (event) {
+    event.preventDefault()
+    tabTrigger.show()
+  })
+})
+
 window.addEventListener('resize', () => {
     const activeTab = document.querySelector('.tabs-container .tabs.active');
     const activeTabRects = activeTab.getBoundingClientRect();

@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#3874f6"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
     <link rel="stylesheet" href="style.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <!-- <script defer src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Filled"
       rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
@@ -57,38 +59,40 @@
           </div>
          
             <div class=" row px-0 relative">
-                <div class="col-12 px-0 mx-0 relative">
-                    <ul class="tabs-container mx-0 px-0">
-                        <li class="tabs active">
+                <div class="col-12 px-4 mx-0 relative trade-options-cont">
+                    <ul class="nav nav-pills trade-options" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="custom-tab" data-bs-toggle="pill" data-bs-target="#custom" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                             Custom
-                            <span class="indicator"></span>
+                          </button>
                         </li>
-                        <li class="tabs">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="forex-tab" data-bs-toggle="pill" data-bs-target="#forex" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
                             Forex
-                            <span class="indicator"></span>
+                          </button>
                         </li>
-                        <li class="tabs">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="commodity-tab" data-bs-toggle="pill" data-bs-target="#commodity" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
                             Commodity
-                            <span class="indicator"></span>
+                          </button>
                         </li>
-                        <li class="tabs">
-                            Index
-                            <span class="indicator"></span>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="index-tab" data-bs-toggle="pill" data-bs-target="#index" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                Index
+                            </button>
                         </li>
-                        <li class="tabs">
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="stock-tab" data-bs-toggle="pill" data-bs-target="#stock" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
                             Stock
-                            <span class="indicator"></span>
+                        </button>
                         </li>
-                        <li class="tabs">
-                            crypto
-                            <span class="indicator"></span>
+                        <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="crypto-tab" data-bs-toggle="pill" data-bs-target="#crypto" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                            Crypto
+                        </button>
                         </li>
                     </ul>
-                    <!-- <div class="tab-indicator">
-
-                    </div> -->
                 </div>
-            </div>
          
             
           </div>
@@ -154,192 +158,31 @@
         
         
         <div class="content-body">
-            <div class="px-3">
-                <div class="alert text-center p-2" style="color : #fff; background-color: #01b9ff;">
-                    Continue to register a real account
-                </div>
-            </div>
+        <br><br>
+     
+       
+          
           <div class="container">
-            <div class="p-3" style=" font-size: 0.8rem;">
-                <div class="d-flex justify-content-between">
-                    
-                    <div class="co pr-0 bg-dange d-flex align-items-center" align="center">
-                        <div class="bg-succes align-items-center justify-end d-flex">
-                            <img class="bg-dange rounded-circle" src="img/blueprofile.png" style="height: 60px; width : 60px;">
-                        </div>
-                    </div>
-                    <div class="flex-grow-1 p-0 bg-succes" align="center">
-                        <div class="justify-content-start  d-flex flex-column bg-inf">
-                            <div class="pl-5 justify-content-start font-weight-bold d-flex bg-secondar">
-                               --
-                            </div>
-                            <div class="bg-dange p-2 justify-content-start align-items-center d-flex py-1">
-                                <span class="material-icons verification-icon">
-                                    verified
-                                    </span> 
-                                    <span class="px-1" style=" font-size: 1rem; color: var(--grey1); font-weight :400">Level</span>
-
-                            </div>
-                            <div class="justify-content-start d-flex py-2 px-2">
-                               <div class="d-flex align-items-center" style="border-radius : 50px; background: #edf1f6;">
-                                    <span class="material-icons" style="font-size: 18px; color: var(--grey2);">
-                                        info
-                                        </span>
-                                    <span class="px-1" style="color: var(--grey1);">security authentication</span>
-                                    <span class="material-icons"  style="font-size: 15px; color: var(--grey2);">
-                                        double_arrow
-                                        </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex-shrink-1 d-flex align-items-center bg-dange justify-content-center" align="center">
-                        <div class="d-flex align-items-center  bg-succes">
-                            <div class="px-1" style="font-size: 15px;">
-                              My Profile
-                            </div>
-                            <span style="font-size: 15px;" class="material-icons">
-                                arrow_forward_ios
-                                </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="container">
-            <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-                <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-                <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-              </ul>
+            
               
-              <div class="tab-content">
-                <div id="home" class="tab-pane fade in active">
-                  <h3>HOME</h3>
-                  <p>Some content.</p>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="custom" role="tabpanel" aria-labelledby="custom-tab">
+                    <!-- <ul -->
                 </div>
-                <div id="menu1" class="tab-pane fade">
-                  <h3>Menu 1</h3>
-                  <p>Some content in menu 1.</p>
+                <div class="tab-pane fade" id="forex" role="tabpanel" aria-labelledby="forex-tab">
+                    Forex content
                 </div>
-                <div id="menu2" class="tab-pane fade">
-                  <h3>Menu 2</h3>
-                  <p>Some content in menu 2.</p>
+                <div class="tab-pane fade" id="commodity" role="tabpanel" aria-labelledby="commodity-tab">
+                    commodity tab
+                </div>
+                <div class="tab-pane fade" id="index" role="tabpanel" aria-labelledby="index-tab">
+                    index tab
+                </div>
+                <div class="tab-pane fade" id="stock" role="tabpanel" aria-labelledby="stock-tab">
+                    stock tab
                 </div>
               </div>
-          </div>
-          <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-5">
-                    <div class="py-4 p-3 mb-4" style="background-color: var(--white-bg1);">
-                        <div class="row">
-                            <div class="col-12">
-                                <h6 style="font-weight:normal">Demo</h6>
-                            </div>
-                            <div class="d-flex flex-column my-4 gap-2">
-                                <div style="font-weight:normal">Net account value</div>
-                                <div class="d-flex">
-                                    <span>$</span><h4>10000.00</h4>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between" align="center">
-                                <div>
-                                    <button class="shadow-sm btn btn-primary" style="background-color: #0197e3; border-color : #0197e3;">
-                                        Deposit
-                                    </button>
-                                </div>
-                        
-                                <div>
-                                    <button class="btn shadow-sm bg-white  btn-outline-secondar">
-                                        Withdrawal
-                                    </button>
-                                </div>
-                        
-                                <div>
-                                    <button class="btn shadow-sm bg-white  btn-outline-secondar">
-                                        Capital flow
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-7">
-                    <div class="p-3" style="background-color: var(--white-bg1);">
-                        <div class="row">
-                            <div class="col-12 py-1">
-                                <h6 style="font-weight:normal">Activity Center</h6>
-                            </div>
-                            <div class="col-4" align="center">
-                                <div>
-                                    <span style="font-size: 35px;" class="material-icons">
-                                        diamond
-                                        </span>
-                                    <div>
-                                        Transaction Mode
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4" align="center">
-                                <div>
-                                    <span style="font-size: 35px;" class="material-icons">
-                                        person
-                                        </span>
-                                    <div>
-                                        Personal information
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4" align="center">
-                                <div>
-                                    <span style="font-size: 35px;" class="material-icons">
-                                        share
-                                        </span>
-                                    <div>
-                                        Invite Friends
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-3" style=" font-size: 0.8rem;">
-                        <div class="row">
-                            
-                            <div class="col-4" align="center">
-                                <div>
-                                    <span style="font-size: 35px;" class="material-icons">
-                                        verified_user
-                                        </span>
-                                    <div>
-                                        Authoritative Supervision MSB:M22076570
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4" align="center">
-                                <div>
-                                    <span style="font-size: 35px;" class="material-icons">
-                                        payments
-                                        </span>
-                                    <div>
-                                        Fund security Capital isolation of top banks
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4" align="center">
-                                <div>
-                                    <span style="font-size: 35px;" class="material-icons">
-                                        support_agent
-                                        </span>
-                                    <div>
-                                        Customer service 7x24 full service
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-           
-          </div>
+          
         </div>
       </div>
 </body>
