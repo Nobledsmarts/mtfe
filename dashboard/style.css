@@ -391,3 +391,44 @@ li {
     min-height: 180px;
     background-size: cover;
 }
+.trade-spread{
+    font-size: 12px;
+}
+.flag-cont {
+    position: relative;
+    width: 23px;
+    height: 23px;
+}
+
+
+
+
+
+
+
+
+.flag-cont img {
+    height: 15px;
+    width: 15px;
+}
+.flag-cont :nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.flag-cont :nth-child(2){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.rise{
+    font-weight: bold;
+}
+.trade .row{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* background: red; */
+}
