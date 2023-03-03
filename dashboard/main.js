@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('#records').DataTable();
+    $('.records').DataTable();
 });
 
 var triggerTabList = [].slice.call(document.querySelectorAll('#trade-options a'))
