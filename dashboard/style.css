@@ -39,6 +39,9 @@ body, html {
     z-index: 02;
     background: #3874f6;
 }
+.header-title b{
+    margin: 0px;
+}
 .header-title, .header-link, .header-title a, .header-link a {
     display: flex;
     align-items: center;
@@ -135,7 +138,7 @@ body, html {
     text-align: center;
     /* margin-top: 30px; */
     background: #033aaf;
-    padding: 19px 0px;
+    padding: 15.5px 0px;
 }
 .brand-logo img {
     max-width: 35px;

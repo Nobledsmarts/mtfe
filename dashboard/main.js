@@ -1,17 +1,21 @@
 const inviteFriends = document.querySelector(".invite-friends");
 const ModalshareButton = document.querySelector(".share-referral-button");
+let referralLink;
 
-referralLink = new ClipboardJS('.copy-referral-link');
+if(window.ClipboardJS){
+    referralLink = new ClipboardJS('.copy-referral-link');
 
-referralLink.on('success', function(e) {
-    swal({
-        title: "Copied",
-        text: "Referral link copied to clipboard",
-        icon: "success",
-        button: "dismiss",
-      });
-    e.clearSelection();
-});
+    referralLink.on('success', function(e) {
+        swal({
+            title: "Copied",
+            text: "Referral link copied to clipboard",
+            icon: "success",
+            button: "dismiss",
+        });
+        e.clearSelection();
+    });
+}
+
 
 ModalshareButton?.addEventListener("click", async () => {
     const shareData = {
@@ -28,7 +32,7 @@ ModalshareButton?.addEventListener("click", async () => {
 });
 
 
-inviteFriends.addEventListener("click", () => {
+inviteFriends?.addEventListener("click", () => {
     
     let inviteModal = new bootstrap.Modal(document.querySelector('#invite-modal'), {
         keyboard: false
