@@ -229,7 +229,7 @@
                                 <h6 style="font-weight:normal">Activity Center</h6>
                             </div>
                             <div class="col-4" align="center">
-                                <a class="activity-item">
+                                <a class="activity-item transaction-mode">
                                     <span style="font-size: 35px;" class="material-icons">
                                         diamond
                                         </span>
@@ -330,6 +330,37 @@
                         </span>
                         share referral link
                 </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="transaction-mode-modal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Change Transaction Mode</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body py-4" align="center">
+                <form>
+                    <div class="form-check">
+                        <input class="form-check-input" value="manual" type="radio" name="transaction-mode" id="manual">
+                        <label class="form-check-label" for="manual">
+                         Manual
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" value="automatic" type="radio" name="transaction-mode" id="automatic" checked>
+                        <label class="form-check-label" for="automatic">
+                         Automatic
+                        </label>
+                      </div>
+                </form>
+               
             </div>
           </div>
         </div>

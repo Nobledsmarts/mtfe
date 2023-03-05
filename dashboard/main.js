@@ -1,5 +1,28 @@
 const inviteFriends = document.querySelector(".invite-friends");
 const ModalshareButton = document.querySelector(".share-referral-button");
+const transactionMode = document.querySelector(".transaction-mode");
+const transactionModeBoxes = document.querySelectorAll("input[name='transaction-mode']");
+
+transactionModeBoxes.length && [... transactionModeBoxes].forEach((transactionMode) => {
+    transactionMode.addEventListener("change", (e) => {
+        swal({
+            title: "Success",
+            text: "Transaction mode has been changed to " + e.currentTarget.value,
+            icon: "success",
+            button: "dismiss",
+        });
+    });
+})
+
+transactionMode?.addEventListener("click", () => {
+    let transactionModeModal = new bootstrap.Modal(document.querySelector("#transaction-mode-modal"), {
+        keyboard: false
+      });
+      
+      
+    transactionModeModal.show();
+});
+
 let referralLink;
 
 if(window.ClipboardJS){
