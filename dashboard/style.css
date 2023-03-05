@@ -4,14 +4,20 @@ html {
     --grey3 : #444a5d;
     --white-bg1 : #f8f8f8;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    
 }
 body, html {
     /* color: #596178; */
     color : var(--grey3);
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: aliceblue;
+    background-color: #f4f7ff;
+    background-color: hsl(224deg 100% 99%);
     /* background-color: #f4f8fb; */
     font-size: 0.96rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
 }
 #main-wrapper {
     opacity: 0;
@@ -28,10 +34,14 @@ body, html {
     padding: 20px 0px;
     position: fixed;
     top: 0;
-    left: 100px;
+    left: 120px;
     right: 0;
     z-index: 02;
     background: #3874f6;
+}
+.header-title, .header-link, .header-title a, .header-link a {
+    display: flex;
+    align-items: center;
 }
 @media only screen and (max-width: 767px) {
     .header {
@@ -93,15 +103,16 @@ body, html {
     background: #1830a3;
     background-color: #ffffff;
     position: fixed;
-    left: 20px;
+    left: 0px;
     height: calc(100%-20px);
-    width: 75px;
-    top: 20px;
+    width: 120px;
+    top: 0px;
     z-index: 999;
-    bottom: 20px;
-    border-radius: 15px;
+    bottom: 0px;
+    /* border-radius: 15px; */
     /* box-shadow: 0px 0px 2px 0px #333436; */
-    box-shadow: 0px 0px 1px 0px #333436;
+    box-shadow: 2px 0px 2px 0px #33343617;
+   
 }
 .sidebar li a {
     color : #636363;
@@ -122,7 +133,9 @@ body, html {
 }
 .brand-logo {
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    background: #033aaf;
+    padding: 19px 0px;
 }
 .brand-logo img {
     max-width: 35px;
@@ -135,7 +148,7 @@ body, html {
    }
 }
 .menu {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 @media only screen and (max-width: 767px) {
     .menu {
@@ -206,7 +219,7 @@ a:hover, a:focus, a.active {
     color: #556ee6;
 }
 .content-body {
-    margin-left: 100px;
+    margin-left: 120px;
 }
 @media only screen and (max-width: 767px) {
     .content-body {
@@ -435,4 +448,58 @@ li {
 }
 .card-header {
     background: #f4f8ff;
+    background: #fff;
+
+}
+.card-header h4, .card-header h5, .card-header h6 {
+    margin: 0px;
+}   
+
+.card {
+    background: #f8f8f8;
+    background: #fff;
+    border: none;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 20%);
+    box-shadow: 0 0 2rem 4px rgb(0 0 0 / 3%);
+}
+.text-content {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.card-amount{
+    font-weight: 600;
+}
+.text-label{
+    font-size: 0.94rem;
+}
+.activity-item{
+ /* color: #556ee6; */
+ color : var(--grey3);
+ text-decoration: none;
+
+}
+.activity-item:hover{
+    cursor: pointer;
+}
+.copy-referral-link{
+    font-weight: 600;
+}
+.referral-pill {
+    
+    background: aliceblue;
+    color: #52595e;
+    border-radius: 50px;
+    padding: 5px 10px;
+   
+
+}
+.share-referral-button{
+    font-size: 0.9rem;
+    position: relative;
+}
+.share-referral-button .material-icons{
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    /* display: flex; */
 }

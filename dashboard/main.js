@@ -1,3 +1,43 @@
+const inviteFriends = document.querySelector(".invite-friends");
+const ModalshareButton = document.querySelector(".share-referral-button");
+
+referralLink = new ClipboardJS('.copy-referral-link');
+
+referralLink.on('success', function(e) {
+    swal({
+        title: "Copied",
+        text: "Referral link copied to clipboard",
+        icon: "success",
+        button: "dismiss",
+      });
+    e.clearSelection();
+});
+
+ModalshareButton?.addEventListener("click", async () => {
+    const shareData = {
+        title: 'MTFE',
+        text: 'Get started with mtfe trading platform!',
+        url: window.location.href
+      }
+    try {
+        await navigator.share(shareData)
+        console.log('shared successfully');
+    } catch (err) {
+        console.log(`Error: ${err}`);
+    }
+});
+
+
+inviteFriends.addEventListener("click", () => {
+    
+    let inviteModal = new bootstrap.Modal(document.querySelector('#invite-modal'), {
+        keyboard: false
+      });
+      
+      
+    inviteModal.show();
+});
+
 $(document).ready(function () {
     $('.records').DataTable();
     $('#records').DataTable();

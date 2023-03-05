@@ -14,6 +14,11 @@
     <script src="https://cdn.datatables.net/1.13.3/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.3/js/dataTables.bootstrap5.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script defer src="/dashboard/main.js"></script>
+
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Filled"
       rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
@@ -30,17 +35,17 @@
               <div class="col-xxl-12">
                 <div class="header-content justify-content-center d-flex">
                   <div class="header-lef  w-100 justify-content-between flex-row d-flex">
-                    <div class="brand-logo">
+                    <div class="header-link">
                       <a href="/dashboard/user" class="">
                         <i class="material-icons text-white">settings</i>
                       </a>
                     </div>
-                    <div class="brand-logo">
+                    <div class="header-title">
                         <a href="/dashboard/user" class="">
                           <img style="width:200px; max-height: 30px; max-width:200px" src="../assets/img/logo.f84fa33.png" alt="">
                         </a>
                       </div>
-                      <div class="brand-logo">
+                      <div class="header-link">
                         <a href="/dashboard/user" class="">
                             <i class="material-icons text-white">support_agent</i>
                         </a>
@@ -58,68 +63,77 @@
         
   
         <div class="sidebar">
-          <div class="brand-logo">
-            <a href="/dashboard/user"><img src="assets/img/logo.f84fa33.png" alt="" class="logo-img logo_white" data-v-36ac65e2=""></a>
-          </div>
-          <div class="menu active">
-            <ul class="show">
-              <li class="active">
-                <a href="/dashboard/trade.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Home" class="active">
-                  
-                    <span class="material-icons">
-                    currency_exchange
-                    </span>
-                   <span class="small">Trade</span>
-                </a>
-              </li>
-              <li>
-                <a href="/dashboard/chart.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Invest">
-                  
-                    <span class="material-icons">
-                    assessment
-                    </span>
-                   <span class="small">Chart</span>
-                </a>
-              </li>
-              <li>
-                <a href="/dashboard/position.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Withdrawal">
-                  
-                    <span class="material-icons">
-                        business_center
-                        </span>
-                   <span class="small">Position</span>
-                </a>
-              </li>
-              <li>
-                <a href="/dashboard/news.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Reinvestment">
-                  
-                    <span class="material-icons">
-                        school
-                        </span>
-                   <span class="small">News</span>
-                </a>
-              </li>
-              <li class="logout">
-                <a href="index.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Signout">
-                  
-                    <span class="material-icons">
-                        more_horiz
-                        </span>
-                   <span class="small">Profile</span>
-                </a>
-              </li>
-            </ul>
-  
-            <!-- <p class="copyright">&#169; <a href="#"></a></p> -->
-          </div>
-        </div>    
+            <div class="brand-logo">
+              <a href="/dashboard/user"><img src="/icon.png" alt="" class="logo-img logo_white" data-v-36ac65e2=""></a>
+            </div>
+            <div class="menu active">
+              <ul class="show">
+                <li class="active">
+                  <a href="/dashboard/trade.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Home" class="active">
+                    
+                      <span class="material-icons">
+                      currency_exchange
+                      </span>
+                     <span class="small">Trade</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/dashboard/chart.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Invest">
+                    
+                      <span class="material-icons">
+                      assessment
+                      </span>
+                     <span class="small">Chart</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/dashboard/position.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Withdrawal">
+                    
+                      <span class="material-icons">
+                          business_center
+                          </span>
+                     <span class="small">Position</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="/dashboard/news.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Reinvestment">
+                    
+                      <span class="material-icons">
+                          school
+                          </span>
+                     <span class="small">News</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Signout">
+                    
+                      <span class="material-icons">
+                          more_horiz
+                          </span>
+                     <span class="small">Profile</span>
+                  </a>
+                </li>
+                <li class="logout d-none d-md-block">
+                  <a href="index.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Signout">
+                    
+                      <span class="material-icons">
+                          logout
+                          </span>
+                     <span class="small">Logout</span>
+                  </a>
+                </li>
+              </ul>
+    
+              <!-- <p class="copyright">&#169; <a href="#"></a></p> -->
+            </div>
+          </div>  
         <div class="content-body">
             <div class="px-3">
                 <div class="alert text-center p-2" style="color : #fff; background-color: #01b9ff;">
                     Continue to register a real account
                 </div>
             </div>
-          <div class="container">
+          <div class="container px-md-4">
             <div class="p-3" style=" font-size: 0.8rem;">
                 <div class="d-flex justify-content-between">
                     
@@ -166,7 +180,7 @@
                 </div>
             </div>
           </div>
-          <div class="container">
+          <div class="container px-md-4">
             <div class="row">
                 <div class="col-12 col-md-5">
                     <div class="py-4 p-3 mb-4" style="background-color: var(--white-bg1);">
@@ -215,34 +229,36 @@
                                 <h6 style="font-weight:normal">Activity Center</h6>
                             </div>
                             <div class="col-4" align="center">
-                                <div>
+                                <a class="activity-item">
                                     <span style="font-size: 35px;" class="material-icons">
                                         diamond
                                         </span>
                                     <div>
                                         Transaction Mode
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-4" align="center">
-                                <div>
+                                <a class="activity-item">
                                     <span style="font-size: 35px;" class="material-icons">
                                         person
                                         </span>
                                     <div>
                                         Personal information
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-4" align="center">
-                                <div>
+                                <a class="invite-friends activity-item">
                                     <span style="font-size: 35px;" class="material-icons">
                                         share
                                         </span>
                                     <div>
                                         Invite Friends
                                     </div>
-                                </div>
+                                </a>
+                                
+                                
                             </div>
                         </div>
                     </div>
@@ -286,5 +302,38 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="modal" id="invite-modal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Refer Friends</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body py-4" align="center">
+                <div class="alert alert-info">
+                    copy and share your referral link to earn extra when the person makes a deposit
+                </div>
+                <div data-clipboard-text=" http://referrallink.com?ref=username" class="copy-referral-link d-flex referral-pill justify-content-between my-3">
+                    <div class="referral-link">
+                        http://referrallink.com?ref=username
+                    </div>
+                    <div>Copy</div>
+                </div>
+                <button class="btn w-100 gap- d-flex align-items-center justify-content-center btn-primary share-referral-button text-uppercase">
+                    <span class="material-icons">
+                        ios_share
+                        </span>
+                        share referral link
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+   
 </body>
 </html>

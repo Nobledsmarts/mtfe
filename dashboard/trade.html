@@ -27,82 +27,43 @@
 <body>
     <div id="main-wrapper" class="show">
         <div class="header">
-          <div class="container">
-            <div class="row">
-              <div class="col-xxl-12">
-                <div class="header-content justify-content-center d-flex">
-                  <div class="header-lef  w-100 justify-content-between flex-row d-flex">
-                    <div class="brand-logo">
-                      <a href="/user" class="">
-                        <i class="material-icons text-white">settings</i>
-                      </a>
-                    </div>
-                    <div class="brand-logo">
-                        <a href="/user" class="">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="header-content justify-content-center d-flex">
+                    <div class="header-lef  w-100 justify-content-between flex-row d-flex">
+                      <div class="header-link">
+                        <a href="/dashboard/user" class="">
+                          <i class="material-icons text-white">settings</i>
+                        </a>
+                      </div>
+                      <div class="header-title">
+                          <a href="/dashboard/user" class="">
                             <b class="h5 text-white">Trade</b>
-                          <!-- <img style="width:200px; max-height: 30px; max-width:200px" src="../_nuxt/img/logo.f84fa33.png" alt=""> -->
-                        </a>
-                      </div>
-                      <div class="brand-logo">
-                        <a href="/user" class="">
-                            <i class="material-icons text-white">support_agent</i>
-                        </a>
-                      </div>
+                            <!-- <img style="width:200px; max-height: 30px; max-width:200px" src="../assets/img/logo.f84fa33.png" alt=""> -->
+                          </a>
+                        </div>
+                        <div class="header-link">
+                          <a href="/dashboard/user" class="">
+                              <i class="material-icons text-white">support_agent</i>
+                          </a>
+                        </div>
+                     
+                    </div>
+                   
                    
                   </div>
-                 
-                 
                 </div>
+                
               </div>
-              
             </div>
           </div>
-         
-            <div class=" row px-0 relative">
-                <div class="col-12 px-4 mx-0 relative trade-options-cont">
-                    <ul class="nav nav-pills trade-options d-md-flex justify-content-md-center" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="custom-tab" data-bs-toggle="pill" data-bs-target="#custom" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-                            Custom
-                          </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="forex-tab" data-bs-toggle="pill" data-bs-target="#forex" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-                            Forex
-                          </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="commodity-tab" data-bs-toggle="pill" data-bs-target="#commodity" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                            Commodity
-                          </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="index-tab" data-bs-toggle="pill" data-bs-target="#index" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                                Index
-                            </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="stock-tab" data-bs-toggle="pill" data-bs-target="#stock" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                            Stock
-                        </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="crypto-tab" data-bs-toggle="pill" data-bs-target="#crypto" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                            Crypto
-                        </button>
-                        </li>
-                    </ul>
-                </div>
-         
-            
-          </div>
-        </div>
         
   
         <div class="sidebar">
             <div class="brand-logo">
-              <a href="/dashboard/user"><img src="assets/img/logo.f84fa33.png" alt="" class="logo-img logo_white" data-v-36ac65e2=""></a>
-            </div>
+                <a href="/dashboard/user"><img src="/icon.png" alt="" class="logo-img logo_white" data-v-36ac65e2=""></a>
+              </div>
             <div class="menu active">
               <ul class="show">
                 <li class="active">
@@ -141,7 +102,7 @@
                      <span class="small">News</span>
                   </a>
                 </li>
-                <li class="logout">
+                <li>
                   <a href="index.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Signout">
                     
                       <span class="material-icons">
@@ -150,11 +111,20 @@
                      <span class="small">Profile</span>
                   </a>
                 </li>
+                <li class="logout d-none d-md-block">
+                  <a href="index.html" data-toggle="tooltip" data-placement="right" title="" style="display: flex;flex-direction: column;" data-original-title="Signout">
+                    
+                      <span class="material-icons">
+                          logout
+                          </span>
+                     <span class="small">Logout</span>
+                  </a>
+                </li>
               </ul>
     
               <!-- <p class="copyright">&#169; <a href="#"></a></p> -->
             </div>
-          </div>
+          </div>  
         
         
         <div class="content-body">
