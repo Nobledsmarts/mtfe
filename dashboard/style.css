@@ -16,7 +16,7 @@ body, html {
     /* background-color: #f4f8fb; */
     font-size: 0.96rem;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 
 }
 #main-wrapper {
@@ -370,10 +370,13 @@ li {
 .news-options-cont{
 
 }
+.news-options-cont .nav-link{
+    color: initial;
+}
 
 .news-options-cont .nav-pills .nav-item.show .nav-link, .news-options-cont .nav-pills .nav-link.active{
     background: none !important;
-    color: initial;
+    color: #0d6efd;
     border: none !important;
     outline: none !important;
     display: flex;
@@ -502,4 +505,24 @@ li {
     position: absolute;
     left: 10px;
     /* display: flex; */
+}
+
+.profile-info{
+    background-color: #f9fafe;
+    /* background-color: #fff; */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+.profile .labels {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.profile .form-control:disabled{
+    background: #fff;
 }
