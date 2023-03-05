@@ -529,3 +529,7 @@ li {
 .profile .form-control:disabled{
     background: #fff;
 }
+
+#transaction-mode-modal .form-check-label{
+    font-size : 1.1rem;
+}
