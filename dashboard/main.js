@@ -24,9 +24,25 @@ transactionMode?.addEventListener("click", () => {
 });
 
 let referralLink;
+let copyDepositAddress
 
 if(window.ClipboardJS){
-    referralLink = new ClipboardJS('.copy-referral-link');
+    referralLink = new ClipboardJS('.copy-referral-link', {  container: document.querySelector('#invite-modal')  });
+    copyDepositAddress = new ClipboardJS('.deposit-copy-address');
+
+
+    console.log(referralLink);
+    // deposit-copy-address
+
+    copyDepositAddress.on('success', function(e) {
+        swal({
+            title: "Copied",
+            text: "Wallet addresss copied to clipboard",
+            icon: "success",
+            button: "dismiss",
+        });
+        // e.clearSelection();
+    });
 
     referralLink.on('success', function(e) {
         swal({
@@ -35,7 +51,7 @@ if(window.ClipboardJS){
             icon: "success",
             button: "dismiss",
         });
-        e.clearSelection();
+        // e.clearSelection();
     });
 }
 

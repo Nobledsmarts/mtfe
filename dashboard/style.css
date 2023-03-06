@@ -490,6 +490,9 @@ li {
 .copy-referral-link{
     font-weight: 600;
 }
+.copy-referral-link:hover{
+    cursor: pointer;
+}
 .referral-pill {
     
     background: aliceblue;
@@ -532,4 +535,7 @@ li {
 
 #transaction-mode-modal .form-check-label{
     font-size : 1.1rem;
+}
+.deposit-copy-address:hover{
+    cursor: pointer;
 }
