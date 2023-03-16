@@ -31,7 +31,7 @@ if(window.ClipboardJS){
     copyDepositAddress = new ClipboardJS('.deposit-copy-address');
 
 
-    console.log(referralLink);
+    // console.log(referralLink);
     // deposit-copy-address
 
     copyDepositAddress.on('success', function(e) {
@@ -64,7 +64,7 @@ ModalshareButton?.addEventListener("click", async () => {
       }
     try {
         await navigator.share(shareData)
-        console.log('shared successfully');
+        // console.log('shared successfully');
     } catch (err) {
         console.log(`Error: ${err}`);
     }
@@ -80,11 +80,13 @@ inviteFriends?.addEventListener("click", () => {
       
     inviteModal.show();
 });
+if("$" in window) {
+    $(document).ready(function () {
+        $('.records').DataTable();
+        $('#records').DataTable();
+    });
+}
 
-$(document).ready(function () {
-    $('.records').DataTable();
-    $('#records').DataTable();
-});
 
 var triggerTabList = [].slice.call(document.querySelectorAll('#trade-options a'))
 triggerTabList.forEach(function (triggerEl) {
@@ -120,10 +122,10 @@ window.addEventListener('resize', () => {
     
 
     // console.log("clientWidth", document.body.clientWidth);
-    console.log("leftPos", leftPos);
-    console.log("scrollWidth", scrollWidth);
+    // console.log("leftPos", leftPos);
+    // console.log("scrollWidth", scrollWidth);
 
-    console.log((document.body.clientWidth - leftPos) > activeTabWidth);
+    // console.log((document.body.clientWidth - leftPos) > activeTabWidth);
 })
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -166,8 +168,8 @@ function setActiveTab(event){
     const tabsContainer = document.querySelector(".tabs-container");
     const scrollWidth = tabsContainer.scrollWidth;
 
-    console.log(activeTab.getBoundingClientRect());
-    console.log(scrollWidth);
+    // console.log(activeTab.getBoundingClientRect());
+    // console.log(scrollWidth);
 
     if((scrollWidth / 2) > (activeTabXOffset)) {
         tabsContainer.scroll({
