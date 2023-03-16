@@ -200,7 +200,7 @@ body {
 }
 
 .el-image-viewer__close .el-icon-circle-close:hover {
-  color: #1977EF;
+  color: #faa116;
 }
 
 /*设置palceholder属性*/
@@ -303,34 +303,34 @@ img {
 }
 
 .btn_kx {
-  color: #1977EF;
+  color: #faa116;
   background: #ffffff;
-  border-color: #1977EF;
+  border-color: #faa116;
 }
 
 .btn_kx:hover {
-  background: #1977EF;
-  border-color: #1977EF;
+  background: #faa116;
+  border-color: #faa116;
   color: #ffffff;
 }
 
 .btn_sx {
-  background: #1977EF;
-  border-color: #1977EF;
+  background: #faa116;
+  border-color: #faa116;
   color: #ffffff;
 }
 
 .btn_sx:hover {
   /*color: #ffffff;*/
-  background: #4396FF;
-  border-color: #4396FF;
+  background: #d88b14;
+  border-color: #d88b14;
 }
 
 .btn_kx:active,
 .btn_sx:active {
   color: #ffffff;
-  background: #125CB9;
-  border-color: #125CB9;
+  background: #d88b14;
+  border-color: #d88b14;
 }
 
 .btn_sty,
@@ -351,11 +351,11 @@ img {
 
 .underline_a {
   cursor: pointer;
-  color: #1977EF !important;
+  color: #faa116 !important;
 }
 
 .underline_a:hover {
-  color: #1977EF !important;
+  color: #faa116 !important;
   text-decoration: underline;
 }
 
@@ -364,12 +364,12 @@ img {
 }
 
 .hov_unde:hover {
-  color: #1977EF !important;
+  color: #faa116 !important;
   text-decoration: underline;
 }
 
 .hov_blue:hover {
-  color: #1977EF !important;
+  color: #faa116 !important;
 }
 
 .font_16_reg {
@@ -400,7 +400,7 @@ img {
 }
 
 .col_main {
-  color: #1977EF !important;
+  color: #faa116 !important;
 }
 
 .col_up {
@@ -462,14 +462,14 @@ img {
   }
 
   .btn_kx:hover {
-    color: #1977EF !important;
+    color: #faa116 !important;
     background: #ffffff !important;
-    border-color: #1977EF !important;
+    border-color: #faa116 !important;
   }
 
   .btn_sx:hover {
-    background: #4396FF !important;
-    border-color: #4396FF !important;
+    background: #d88b14 !important;
+    border-color: #d88b14 !important;
     color: #ffffff !important;
   }
 }

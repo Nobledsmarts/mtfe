@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
 html {
     --grey1 : #676f77;
     --grey2 : #91a1bb;
@@ -5,6 +7,11 @@ html {
     --white-bg1 : #f8f8f8;
     font-family: 'Montserrat', sans-serif;
     
+}
+.header-logo {
+    /* width:200px; */
+    max-height: 50px;
+    max-width:200px
 }
 body, html {
     /* color: #596178; */
@@ -14,10 +21,15 @@ body, html {
     background-color: #f4f7ff;
     background-color: hsl(224deg 100% 99%);
     /* background-color: #f4f8fb; */
-    font-size: 0.96rem;
+    font-size: 0.89rem;
     font-weight: 500;
-    /* font-family: 'Montserrat', sans-serif; */
+    -webkit-font-smoothing : antialiased;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.4px;
 
+}
+a:link {
+    color: #faa116;
 }
 #main-wrapper {
     opacity: 0;
@@ -37,10 +49,16 @@ body, html {
     left: 120px;
     right: 0;
     z-index: 02;
-    background: #3874f6;
+    /* background: #3e1e34 !important; */
+    background-color: #602c50;
 }
 .header-title b{
     margin: 0px;
+}
+.header-link a:nth-of-type(1){
+    background: #95457c78;
+    padding: 5px;
+    border-radius: 100%;
 }
 .header-title, .header-link, .header-title a, .header-link a {
     display: flex;
@@ -137,7 +155,8 @@ body, html {
 .brand-logo {
     text-align: center;
     /* margin-top: 30px; */
-    background: #033aaf;
+    /* background: #033aaf; */
+    background-color: #542646;
     padding: 15.5px 0px;
 }
 .brand-logo img {
@@ -157,6 +176,14 @@ body, html {
     .menu {
         margin-top: 0px;
    }
+}
+@media (min-width : 768px){
+    .sidebar .material-icons{
+        font-size : 32px;
+    }
+    .sidebar .small {
+        font-size: 10px !important;
+    }
 }
 @media only screen and (max-width: 767px) {
     .menu ul {
@@ -181,15 +208,15 @@ body, html {
 .menu ul li a:hover, .menu ul li a:focus, .menu ul li a:active {
     /* background: rgba(255, 255, 255, 0.1); */
     /* color: #fff; */
-    color :#1830a3;
+    color :#602c50;
     opacity: 1;
 }
 .menu ul li a.active {
     /* background: rgba(255, 255, 255, 0.15); */
-    color :#1830a3
+    color :#602c50
 }
 .menu ul li a.active i {
-   color :#1830a3;
+   color :#602c50;
     opacity: 1;
 }
 .menu ul li a i {
@@ -199,7 +226,7 @@ body, html {
 }
 .menu ul li.logout {
     position: absolute;
-    bottom: 50px;
+    bottom: 15px;
     left: 0;
     right: 0;
 }
@@ -539,3 +566,50 @@ li {
 .deposit-copy-address:hover{
     cursor: pointer;
 }
+
+.btn-orange {
+    background: #faa116;
+    border-color: #faa116;
+    color: #ffffff;
+        /* display: inline-block; */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+        font-size: 14px;
+        text-align: center;
+        line-height: 18px;
+        
+        border-radius: 3px;
+        font-weight: 500;
+        transition: border .2s ease, background-color .2s ease, color .15s ease;
+        cursor: pointer;
+        box-sizing: border-box;
+        user-select: none;
+        outline: none;
+
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+  }
+  
+  
+  .btn-orange:hover {
+    color: #ffffff;
+    background-color: #d88b14 !important;
+    border-color: #d88b14 !important;
+  }
+  
+  
+  .btn-orange:active {
+    color: #ffffff !important;
+    background-color: #d88b14 !important;
+    border-color: #d88b14 !important;
+  }
+
+  .card-balance {
+    background-image: url(img/card-bg.svg);
+    background-size: contain;
+    color: #fff;
+  }
