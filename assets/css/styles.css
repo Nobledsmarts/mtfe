@@ -34,7 +34,7 @@ a {
 }
 @font-face {
     font-family: element-icons;
-    src: url(assets/fonts/element-icons.535877f.woff) format("woff"), url(assets/fonts/element-icons.732389d.ttf) format("truetype");
+    src: url(/assets/fonts/element-icons.535877f.woff) format("woff"), url(/assets/fonts/element-icons.732389d.ttf) format("truetype");
     font-weight: 400;
     font-display: "auto";
     font-style: normal;
@@ -14075,7 +14075,7 @@ button.swiper-pagination-bullet {
     content: "";
     width: 15px;
     height: 20px;
-    background: url(assets/img/par_fire.ee6d185.svg) no-repeat 50%;
+    background: url(/assets/img/par_fire.ee6d185.svg) no-repeat 50%;
     position: absolute;
     right: -20px;
     top: -3px;
@@ -14157,7 +14157,7 @@ button.swiper-pagination-bullet {
     width: 12px;
     height: 8px;
     display: inline-block;
-    background: url(assets/img/icon_dh.d42b018.svg) no-repeat 50%;
+    background: url(/assets/img/icon_dh.d42b018.svg) no-repeat 50%;
     background-size: cover;
     margin-left: 8px;
 }
@@ -14279,12 +14279,12 @@ button.swiper-pagination-bullet {
     padding-left: 14px;
 }
 .header-nav-m .header_m_top .header_img_url_bg1[data-v-bd520568] {
-    background: url(assets/img/video_bg.3619f1d.svg) no-repeat 50%;
+    background: url(/assets/img/video_bg.3619f1d.svg) no-repeat 50%;
     background-size: auto 80px;
     background-color: #6ecf43;
 }
 .header-nav-m .header_m_top .header_img_url_bg2[data-v-bd520568] {
-    background: url(assets/img/insight_bg.26cf4cb.svg) no-repeat 50%;
+    background: url(/assets/img/insight_bg.26cf4cb.svg) no-repeat 50%;
     background-size: auto 80px;
     background-color: #47aedb;
 }
@@ -14318,7 +14318,7 @@ button.swiper-pagination-bullet {
     display: none;
 }
 .scroll_letterList .wrap[data-v-dea1eb4e] {
-    background: url(assets/img/lb.c5323c8.svg) no-repeat left 28px center;
+    background: url(/assets/img/lb.c5323c8.svg) no-repeat left 28px center;
     background-size: 18px;
 }
 .scroll_letterList .letterList_item[data-v-dea1eb4e] {
@@ -14348,7 +14348,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 450px) {
     .scroll_letterList .wrap[data-v-dea1eb4e] {
-        background: url(assets/img/lb.c5323c8.svg) no-repeat left 16px center;
+        background: url(/assets/img/lb.c5323c8.svg) no-repeat left 16px center;
         background-size: 18px;
     }
     .scroll_letterList .letterList_item[data-v-dea1eb4e] {
@@ -15334,7 +15334,7 @@ button.swiper-pagination-bullet {
         flex-direction: column;
     }
     .RichInvestment .em-ed-list > .em-ed-item:first-child .a2[data-v-55244464] {
-        background: url(assets/img/RichInvestment_1_m.66cb93a.svg) no-repeat left 15px center;
+        background: url(/assets/img/RichInvestment_1_m.66cb93a.svg) no-repeat left 15px center;
         background-size: 50px;
     }
     .RichInvestment .em-ed-list > .em-ed-item:nth-child(2) .a2[data-v-55244464] {
@@ -15343,7 +15343,7 @@ button.swiper-pagination-bullet {
         background-size: 50px;
     }
     .RichInvestment .em-ed-list > .em-ed-item:nth-child(3) .a2[data-v-55244464] {
-        background: url(assets/img/RichInvestment_3_m.7f177ee.svg) no-repeat left 15px center;
+        background: url(/assets/img/RichInvestment_3_m.7f177ee.svg) no-repeat left 15px center;
         background-size: 50px;
     }
     .RichInvestment .em-ed-list > .em-ed-item:nth-child(4) .a2[data-v-55244464] {
@@ -16248,7 +16248,7 @@ button.swiper-pagination-bullet {
 
 /* high leverage page */
 .highLv_banner[data-v-1b41ae5a] {
-    background: url(../assets/img/bg1.f625b3b.svg) no-repeat top;
+    background: url(/assets/img/bg1.f625b3b.svg) no-repeat top;
     color: #fff;
     box-sizing: border-box;
     padding-top: 80px;
@@ -16300,7 +16300,7 @@ button.swiper-pagination-bullet {
 .highLv_con1 .div2[data-v-1b41ae5a] {
     max-width: 1014px;
     margin: 100px auto 0;
-    background: url(../assets/img/bg2.357427b.svg) no-repeat 50%;
+    background: url(/assets/img/bg2.357427b.svg) no-repeat 50%;
     padding: 60px 20px;
     border-radius: 10px;
     box-sizing: border-box;
@@ -16353,7 +16353,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 550px) {
     .highLv_banner[data-v-1b41ae5a] {
-        background: url(../assets/img/bg1_m.0153dbe.svg) no-repeat top;
+        background: url(/assets/img/bg1_m.0153dbe.svg) no-repeat top;
     }
     .highLv_banner .ban_tit[data-v-1b41ae5a] {
         font-size: 36px;
@@ -16614,7 +16614,7 @@ button.swiper-pagination-bullet {
     width: 100%;
 }
 .product_how {
-    background: url(assets/img/how_bg.36b8b16.jpg) no-repeat 50%;
+    background: url(/assets/img/how_bg.36b8b16.jpg) no-repeat 50%;
     background-size: cover;
 }
 .product_how,
@@ -16654,19 +16654,19 @@ button.swiper-pagination-bullet {
     text-decoration: underline;
 }
 .product_how .product_how_con > li:first-child .li_mask[data-v-e3d36226] {
-    background: url(assets/img/how_1.bd1b958.png) no-repeat 50%;
+    background: url(/assets/img/how_1.bd1b958.png) no-repeat 50%;
     background-size: cover;
 }
 .product_how .product_how_con > li:nth-child(2) .li_mask[data-v-e3d36226] {
-    background: url(assets/img/how_2.ef0fb90.png) no-repeat 50%;
+    background: url(/assets/img/how_2.ef0fb90.png) no-repeat 50%;
     background-size: cover;
 }
 .product_how .product_how_con > li:nth-child(3) .li_mask[data-v-e3d36226] {
-    background: url(assets/img/how_3.462ebba.png) no-repeat 50%;
+    background: url(/assets/img/how_3.462ebba.png) no-repeat 50%;
     background-size: cover;
 }
 .product_how .product_how_con > li:nth-child(4) .li_mask[data-v-e3d36226] {
-    background: url(assets/img/how_4.ea76892.png) no-repeat 50%;
+    background: url(/assets/img/how_4.ea76892.png) no-repeat 50%;
     background-size: cover;
 }
 @media only screen and (max-width: 750px) {
@@ -17165,7 +17165,7 @@ button.swiper-pagination-bullet {
 }
 .depositsBonus .deB_banner[data-v-118b0ae2] {
     height: 683px;
-    background: url(../assets/img/banner_pc.1a342dd.jpg) no-repeat 50%;
+    background: url(/assets/img/banner_pc.1a342dd.jpg) no-repeat 50%;
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -17257,7 +17257,7 @@ button.swiper-pagination-bullet {
     color: #303355;
 }
 .depositsBonus .deB_div2[data-v-118b0ae2] {
-    background: url(../assets/img/bg2.f673aaf.svg) no-repeat 50%;
+    background: url(/assets/img/bg2.f673aaf.svg) no-repeat 50%;
     background-size: cover;
 }
 .depositsBonus .deB_div2 .deB_div2_title[data-v-118b0ae2] {
@@ -17487,7 +17487,7 @@ button.swiper-pagination-bullet {
 @media only screen and (max-width: 600px) {
     .depositsBonus .deB_banner[data-v-118b0ae2] {
         height: 700px;
-        background: url(../assets/img/bg_m.7a70d0c.jpg) no-repeat 50%;
+        background: url(/assets/img/bg_m.7a70d0c.jpg) no-repeat 50%;
         background-size: cover;
     }
     .depositsBonus .deB_banner .d1[data-v-118b0ae2] {
@@ -17642,7 +17642,7 @@ button.swiper-pagination-bullet {
     color: #696a7b;
 }
 .beginnersOpenAccount .div2[data-v-1a09cded] {
-    background: url(../assets/img/div2_bg.41cb124.svg) no-repeat 50%;
+    background: url(/assets/img/div2_bg.41cb124.svg) no-repeat 50%;
     background-size: cover;
     color: #fff;
 }
@@ -17857,7 +17857,7 @@ button.swiper-pagination-bullet {
 }
 .div3_item .div3_item_con3[data-v-231ef92c] {
     min-height: 241px;
-    background: url(../assets/img/withdraw1.24af866.png) no-repeat right -50px center;
+    background: url(/assets/img/withdraw1.24af866.png) no-repeat right -50px center;
     background-size: 321px 241px;
     display: flex;
     align-items: center;
@@ -17909,7 +17909,7 @@ button.swiper-pagination-bullet {
         font-size: 13px;
         line-height: 1.5;
         min-height: 141px;
-        background: url(../assets/img/withdraw1.24af866.png) no-repeat 100%;
+        background: url(/assets/img/withdraw1.24af866.png) no-repeat 100%;
         background-size: 141px;
     }
     .div3_item .div3_item_con3 .dl[data-v-231ef92c] {
@@ -17988,7 +17988,7 @@ button.swiper-pagination-bullet {
 }
 .div3_item .div3_item_con3[data-v-5e8ca4c4] {
     min-height: 241px;
-    background: url(../assets/img/withdraw1.24af866.png) no-repeat right -50px center;
+    background: url(/assets/img/withdraw1.24af866.png) no-repeat right -50px center;
     background-size: 321px 241px;
     display: flex;
     align-items: center;
@@ -18040,7 +18040,7 @@ button.swiper-pagination-bullet {
         font-size: 13px;
         line-height: 1.5;
         min-height: 141px;
-        background: url(../assets/img/withdraw1.24af866.png) no-repeat 100%;
+        background: url(/assets/img/withdraw1.24af866.png) no-repeat 100%;
         background-size: 141px;
     }
     .div3_item .div3_item_con3 .dl[data-v-5e8ca4c4] {
@@ -18267,7 +18267,7 @@ button.swiper-pagination-bullet {
     color: #696a7b;
 }
 .beginnersStartTrading .div2[data-v-4011d5d8] {
-    background: url(../assets/img/div2_bg.41cb124.svg) no-repeat 50%;
+    background: url(/assets/img/div2_bg.41cb124.svg) no-repeat 50%;
     background-size: cover;
     color: #fff;
 }
@@ -18595,7 +18595,7 @@ button.swiper-pagination-bullet {
     color: #696a7b;
 }
 .beginnersMakeProfit .div2[data-v-7b0456df] {
-    background: url(../assets/img/div2_bg.41cb124.svg) no-repeat 50%;
+    background: url(/assets/img/div2_bg.41cb124.svg) no-repeat 50%;
     background-size: cover;
     color: #fff;
 }
@@ -18875,7 +18875,7 @@ button.swiper-pagination-bullet {
     max-width: 425px;
 }
 .about_us .Trophy_div[data-v-471b6f6c] {
-    background: url(../assets/img/hj_bg.f4a656e.png) no-repeat 50%;
+    background: url(/assets/img/hj_bg.f4a656e.png) no-repeat 50%;
     background-size: cover;
 }
 .about_us .Trophy_div .p_des[data-v-471b6f6c] {
@@ -18926,7 +18926,7 @@ button.swiper-pagination-bullet {
     color: #303355;
     line-height: 29px;
     padding-left: 30px;
-    background: url(../assets/img/dg.5ba2560.svg) no-repeat 0;
+    background: url(/assets/img/dg.5ba2560.svg) no-repeat 0;
 }
 .Benefits-Trading .BT-con > div p[data-v-471b6f6c] {
     margin-top: 16px;
@@ -19166,7 +19166,7 @@ button.swiper-pagination-bullet {
     display: none;
 }
 .top-banner-con[data-v-505887f7] {
-    background: url(../assets/img/bg1.70f84f7.png) no-repeat 100% 0;
+    background: url(/assets/img/bg1.70f84f7.png) no-repeat 100% 0;
     background-size: 600px;
     padding: 50px 0;
 }
@@ -19273,7 +19273,7 @@ button.swiper-pagination-bullet {
     width: 22px;
     height: 22px;
     display: inline-block;
-    background: url(../assets/img/dg.5ba2560.svg) no-repeat 50%;
+    background: url(/assets/img/dg.5ba2560.svg) no-repeat 50%;
     position: absolute;
     right: 32px;
     top: 50%;
@@ -19991,7 +19991,7 @@ button.swiper-pagination-bullet {
 /* analyst */
 
 .analyst_banner[data-v-1ba9f06e] {
-    background: url(assets/img/analyst_banner.d8eb4ea.png) no-repeat 50%;
+    background: url(/assets/img/analyst_banner.d8eb4ea.png) no-repeat 50%;
     background-size: cover;
 }
 .analyst_banner .analyst_banner_box[data-v-1ba9f06e] {
@@ -20021,7 +20021,7 @@ button.swiper-pagination-bullet {
     display: flex;
     align-items: center;
     height: 150px;
-    background: url(assets/img/analyst_bg.2b96ada.png) no-repeat 50%;
+    background: url(/assets/img/analyst_bg.2b96ada.png) no-repeat 50%;
     background-size: cover;
     padding-left: 40px;
     box-sizing: border-box;
@@ -20126,7 +20126,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 450px) {
     .analyst_banner[data-v-1ba9f06e] {
-        background: url(assets/img/analyst_banner_m.5a79b80.png) no-repeat 50%;
+        background: url(/assets/img/analyst_banner_m.5a79b80.png) no-repeat 50%;
         background-size: cover;
     }
     .analyst_banner .analyst_banner_box[data-v-1ba9f06e] {
@@ -20335,7 +20335,7 @@ button.swiper-pagination-bullet {
 }
 .idea_template .article_img[data-v-0e0f2c12] {
     height: 535px;
-    background: url(assets/img/top_bg.9f5a297.jpg) no-repeat 50%;
+    background: url(/assets/img/top_bg.9f5a297.jpg) no-repeat 50%;
     background-size: cover;
     padding: 80px 25px 60px;
     box-sizing: border-box;
@@ -20827,7 +20827,7 @@ button.swiper-pagination-bullet {
 /* educational video */
 
 .educationalVideo .video_banner[data-v-6874f189] {
-    background: url(assets/img/video_banner.7a926a0.png) no-repeat 50%;
+    background: url(/assets/img/video_banner.7a926a0.png) no-repeat 50%;
     background-size: cover;
     color: #fff;
 }
@@ -20845,7 +20845,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 600px) {
     .educationalVideo .video_banner[data-v-6874f189] {
-        background: url(assets/img/video_banner_m.3202b72.png) no-repeat 50%;
+        background: url(/assets/img/video_banner_m.3202b72.png) no-repeat 50%;
         background-size: cover;
     }
     .educationalVideo .video_banner .banner_box[data-v-6874f189] {
@@ -21434,7 +21434,7 @@ button.swiper-pagination-bullet {
   }
 
   .wrap_con[data-v-463ceb6e] {
-    background:url(../assets/img/bg2.cea29fe.png) no-repeat 50%; background-size:cover; padding-top:100px; background-color:#181514
+    background:url(/assets/img/bg2.cea29fe.png) no-repeat 50%; background-size:cover; padding-top:100px; background-color:#181514
   }
 
   .wrap[data-v-463ceb6e] {
@@ -23710,7 +23710,7 @@ button.swiper-pagination-bullet {
   }
 
   .ReferFriend .banner_box[data-v-1bf88a20] {
-    background:url(../assets/img/refer_bg.c261640.jpg) no-repeat 50%; background-size:cover; color:#fff
+    background:url(/assets/img/refer_bg.c261640.jpg) no-repeat 50%; background-size:cover; color:#fff
   }
 
   .ReferFriend .banner_box .banner_con[data-v-1bf88a20] {
@@ -23967,7 +23967,7 @@ button.swiper-pagination-bullet {
     }
 
     .ReferFriend .banner_box[data-v-1bf88a20] {
-      background:url(../assets/img/refer_bg_m.9cb5777.jpg) no-repeat bottom; background-size:100% auto; background-color:#172a3f
+      background:url(/assets/img/refer_bg_m.9cb5777.jpg) no-repeat bottom; background-size:100% auto; background-color:#172a3f
     }
 
     .ReferFriend .banner_box .banner_con[data-v-1bf88a20] {
@@ -24087,7 +24087,7 @@ button.swiper-pagination-bullet {
 /* get trading app */
 
 .trading_app .el-slider__button-wrapper {
-    background:url(assets/img/move.7b0bdbb.svg) no-repeat 50%; z-index:30
+    background:url(/assets/img/move.7b0bdbb.svg) no-repeat 50%; z-index:30
   }
 
   .trading_app .el-slider__runway {
@@ -24175,7 +24175,7 @@ button.swiper-pagination-bullet {
   }
 
   .trading_app .div1 .dr ul li span[data-v-52843e05] {
-    display:inline-block; font-size:16px; line-height:33px; cursor:pointer; background:url(assets/img/ok.0df12db.svg) no-repeat 0; background-size:16px; padding-left:34px; transition:all .2s ease
+    display:inline-block; font-size:16px; line-height:33px; cursor:pointer; background:url(/assets/img/ok.0df12db.svg) no-repeat 0; background-size:16px; padding-left:34px; transition:all .2s ease
   }
 
   .trading_app .div1 .dr ul li span[data-v-52843e05]:hover {
@@ -24350,7 +24350,7 @@ button.swiper-pagination-bullet {
     }
 
     .trading_app .div1 .dr ul li span[data-v-52843e05] {
-      font-size:14px; line-height:25px; background-size:16px; background:url(assets/img/ok.0df12db.svg) no-repeat left 5px; padding-left:28px
+      font-size:14px; line-height:25px; background-size:16px; background:url(/assets/img/ok.0df12db.svg) no-repeat left 5px; padding-left:28px
     }
 
     .trading_app .div1 .dr ul li span[data-v-52843e05]:hover {
@@ -24658,7 +24658,7 @@ button.swiper-pagination-bullet {
   }
 
   .shareBouns_banner[data-v-9fba7df4] {
-    height:869px; box-sizing:border-box; background:url(../assets/img/bg.320ab5f.png) no-repeat 50%; background-size:cover; text-align:right; position:relative
+    height:869px; box-sizing:border-box; background:url(/assets/img/bg.320ab5f.png) no-repeat 50%; background-size:cover; text-align:right; position:relative
   }
 
   .shareBouns_banner .banner_con[data-v-9fba7df4] {
@@ -24762,7 +24762,7 @@ button.swiper-pagination-bullet {
   }
 
   .shareBouns_con3[data-v-9fba7df4] {
-    background:url(../assets/img/bg2.133b65e.svg) no-repeat 50%; background-size:cover
+    background:url(/assets/img/bg2.133b65e.svg) no-repeat 50%; background-size:cover
   }
 
   .con3_div[data-v-9fba7df4] {
@@ -25084,3 +25084,94 @@ button.swiper-pagination-bullet {
 .Get_started_con img{
     filter: hue-rotate(45deg);
 }
+
+
+/* terms */
+.Content[data-v-e58086ca] {
+    padding: 70px 0;
+}
+.Content .pub_banner_tit[data-v-e58086ca] {
+    margin-bottom: 16px;
+}
+.Content .font_16_reg[data-v-e58086ca] {
+    color: #696a7b;
+}
+.Content .pdf-list[data-v-e58086ca] {
+    padding-top: 40px;
+}
+.Content .pdf-list li[data-v-e58086ca] {
+    padding-left: 38px;
+    margin-top: 32px;
+}
+.Content .pdf-list a[data-v-e58086ca] {
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+}
+.Content .pdf-list a[data-v-e58086ca]:hover {
+    text-decoration: underline;
+    color: #1977ef;
+}
+.Content .pdf-list a[data-v-e58086ca]:before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background: url(../../_nuxt/img/icon_pdf.8f568df.svg) no-repeat 50%;
+    background-size: cover;
+    position: absolute;
+    left: -38px;
+    top: 0;
+}
+.Content .pdf-list p[data-v-e58086ca] {
+    font-size: 14px;
+    color: #696a7b;
+    line-height: 24px;
+    margin-top: 12px;
+}
+.Content .page-list li[data-v-e58086ca] {
+    padding-left: 38px;
+    margin-top: 32px;
+}
+.Content .page-list a[data-v-e58086ca] {
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+}
+.Content .page-list a[data-v-e58086ca]:hover {
+    text-decoration: underline;
+    color: #1977ef;
+}
+.Content .page-list a[data-v-e58086ca]:before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background: url(../../_nuxt/img/page.82efc32.svg) no-repeat 50%;
+    background-size: cover;
+    position: absolute;
+    left: -38px;
+    top: 0;
+}
+.Content .page-list p[data-v-e58086ca] {
+    font-size: 14px;
+    color: #696a7b;
+    line-height: 24px;
+    margin-top: 12px;
+}
+@media only screen and (max-width: 450px) {
+    .Content[data-v-e58086ca] {
+        padding: 50px 0;
+    }
+    .Content .pub_banner_tit[data-v-e58086ca] {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .Content .font_16_reg[data-v-e58086ca] {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
+/*  terms */
